@@ -4,12 +4,18 @@
   "description": "just a test demo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "server.bat"
   },
   "keywords": [
     "trs",
     "test"
   ],
   "author": "Hooper",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^5.0.1"
+  }
 }
