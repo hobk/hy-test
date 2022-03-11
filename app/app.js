@@ -13,8 +13,8 @@ app.controller("myController", [
       { id: 3, name: "资源目录", url: "#!/home?id=3" },
       { id: 4, name: "问政互动", url: "#!/home?id=4" },
       { id: 5, name: "智能检索", url: "#!/home?id=5" },
-      { id: 6, name: "绩效考核", url: "/#!/home?id=6" },
-      { id: 7, name: "运营中心", url: "/#!/home?id=7" },
+      { id: 6, name: "绩效考核", url: "#!/home?id=6" },
+      { id: 7, name: "运营中心", url: "#!/home?id=7" },
     ];
     $scope.isActive = function (id) {
         return $location.search().id == id

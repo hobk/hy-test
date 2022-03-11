@@ -1,36 +1,38 @@
-html,body{
-    width: 100%;
-    visibility: visible !important;
-}
 html,body,ul,li{
     margin:0;
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
 }
+body{
+    min-width: 1200px;
+}
 button{
-    color: green;
     font-size: 30px;
 }
 .topbar{
     background-color: #1070bc;
     height: 56px;
+    width:100%;
     position: relative;
 }
 .topbar .logo{
     float: left;
 }
-.topbar .logo a img{
+.topbar .logo img{
     height: 36px;
     margin: 10px 0 0 24px;
 }
 .topbar .rightbar{
     float: right;
+    position: relative;
 }
-
-
+.topbar .rightbar .btns{
+    float: left;
+}
 .topbar .rightbar .btns ul li{
     float: left;
+    overflow:hidden;
     margin: 8px 5px 0px 10px;
     background-color: rgb(51,133,198);
     line-height: 48px;
@@ -53,4 +55,14 @@ button{
     color:rgb(11,119,205)!important;
     border-radius: 5px 5px 0 0 ;
     font-size: 16px;
+}
+.topbar .user {
+    position: relative;
+    float:right ;
+    color: red;
+}
+.topbar .user ul li {
+    float: left;
+    line-height: 56px;
+    padding-left: 20px;
 }
