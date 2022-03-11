@@ -1,7 +1,12 @@
+html,body{
+    width: 100%;
+    visibility: visible !important;
+}
 html,body,ul,li{
     margin:0;
     padding: 0;
     list-style-type: none;
+    box-sizing: border-box;
 }
 button{
     color: green;
@@ -11,7 +16,6 @@ button{
     background-color: #1070bc;
     height: 56px;
     position: relative;
-    top:0px;
 }
 .topbar .logo{
     float: left;
@@ -22,14 +26,31 @@ button{
 }
 .topbar .rightbar{
     float: right;
-    position: relative;
 }
-.topbar .rightbar .btns{
-    float: left;
-}
+
+
 .topbar .rightbar .btns ul li{
     float: left;
-    display: inline;
-    margin: 15px 10px 0px 0px ;
-    background-color: #819fb8;
+    margin: 8px 5px 0px 10px;
+    background-color: rgb(51,133,198);
+    line-height: 48px;
+    font-size:14px;
+    border-radius: 5px 5px 0 0 ;
+}
+.topbar .rightbar .btns a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 10px;
+    color:white;
+}
+.topbar .rightbar .btns a:hover{
+    background-color: white;
+    color:rgb(11,119,205);
+    border-radius: 5px 5px 0 0 ;
+}
+.isActive{
+    background-color: white;
+    color:rgb(11,119,205)!important;
+    border-radius: 5px 5px 0 0 ;
+    font-size: 16px;
 }
