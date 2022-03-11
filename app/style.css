@@ -1,3 +1,35 @@
-html{
-    background-color: gray;
+html,body,ul,li{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+button{
+    color: green;
+    font-size: 30px;
+}
+.topbar{
+    background-color: #1070bc;
+    height: 56px;
+    position: relative;
+    top:0px;
+}
+.topbar .logo{
+    float: left;
+}
+.topbar .logo a img{
+    height: 36px;
+    margin: 10px 0 0 24px;
+}
+.topbar .rightbar{
+    float: right;
+    position: relative;
+}
+.topbar .rightbar .btns{
+    float: left;
+}
+.topbar .rightbar .btns ul li{
+    float: left;
+    display: inline;
+    margin: 15px 10px 0px 0px ;
+    background-color: #819fb8;
 }
